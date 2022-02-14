@@ -5,8 +5,6 @@ on Python 3, Keras, and TensorFlow>=1.10, <2.0. The code inherits from [Mask RCN
 We mainly modified its RPN part. 
 Our method has a better performance on small object detection. 
 
-![Instance Segmentation Sample](images/p2.jpg)
-
 The repository includes:
 * the source code of Mask RCNN
 * the source code of constructing Guassian mixture model(GMM) and the implements of 
@@ -30,7 +28,6 @@ the size of 512×512 pixels are included, of which 2,304
 contained lesion areas with 3781 PE regions of interest(PE-ROIs) altogether.More than 85% of these PE-ROIs are small
 objects with the square root of the area≤32 pixels which only
 occupy on average 0.3% of the image area.
-![objects square distribution](images/area.png)
 
 # Getting started
 Install the required package:
