@@ -5,8 +5,8 @@
 本研究修改了它的候選區域生成網路(RPN)以符合研究所需. 
 這支程式對於肺栓塞這種醫學影像中的小物件檢測有良好的性能. 
 
-The repository includes:
-* the source code of CNN
+程式內容包括:
+* 卷積神經網路(CNN)的程式(使用R)
 * the source code of constructing Guassian mixture model(GMM) and the implements of 
 the Expectation-Maximization(EM) algorithm
 * the source code of sample from GMM
