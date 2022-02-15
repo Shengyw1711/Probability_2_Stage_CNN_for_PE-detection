@@ -1,6 +1,6 @@
 # Probability_2_Stage_CNN_for for Pulmonary Embolism(PE) detection and segmentation
 
-這是一支"基於機率的兩階段卷積神經網路於肺栓塞檢測"的程式  
+這是"基於機率的兩階段卷積神經網路於肺栓塞檢測"的程式  
 使用的軟體/套件包括Python 3, Keras和>=1.10或<2.0的TensorFlow.程式的靈感來自於[Mask RCNN](https://github.com/matterport/Mask_RCNN). 
 本研究修改了它的候選區域生成網路(RPN)以符合研究所需. 
 這支程式對於肺栓塞這種醫學影像中的小物件檢測有良好的性能. 
