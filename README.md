@@ -23,8 +23,8 @@
 pip install -r requirements.txt
 ```
 
-* [sampling.sample.py](sampling/sample.py) is the module to build GMM and sample points from GMM and save it to the 
-[locations](locations) directory. you can run it and plot the GMM in a 3D Coordinate System.
+* [sampling.sample.py](sampling/sample.py) 是建立高斯混合模型(GMM)和採樣點並將其保存到 
+[locations](locations)目錄的模塊. you can run it and plot the GMM in a 3D Coordinate System.
 ```
 python sampling/sample.py
 ```
