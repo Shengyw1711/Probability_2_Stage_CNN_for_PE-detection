@@ -11,7 +11,7 @@
 * 候選區域生成網路(RPN)的程式碼
 
 # 訓練資料來源
-需要下載PE影像資料集 [here](https://figshare:com/authors/MojtabaMasoudi/5215238).
+需要下載[PE影像資料集](https://figshare:com/authors/MojtabaMasoudi/5215238).
 
 The dataset is provided in dicom form, you should change it to jpg form, first. After that,
 you should generate a label file for the coco dataset using the mask label provided by the dataset, 
