@@ -17,7 +17,7 @@
 
 該影像資料集包括35名患者，總共納入 了8792張肺動脈電腦斷層血管攝影(CTPA)影像，大小為512×512像素，其中2304張包含病灶區域，總共有3781個肺栓塞(PE)的感興趣區域（PE-ROIs）。
 
-# Getting started
+# 執行程式
 Install the required package:
 ```
 pip install -r requirements.txt
