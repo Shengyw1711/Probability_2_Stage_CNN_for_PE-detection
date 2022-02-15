@@ -15,11 +15,7 @@
 2.影像資料集是以dicom檔儲存，需要先將其轉換為jpg格式。  
 3.接著需要使用該數據集提供的Ground Truth標籤對下載下來的資料集建立一個標籤文件來替換[annotations](annotations)目錄中的文件.  
 
-The dataset includes 35 patients. A total of 8,792 CTPA images with
-the size of 512×512 pixels are included, of which 2,304
-contained lesion areas with 3781 PE regions of interest(PE-ROIs) altogether.More than 85% of these PE-ROIs are small
-objects with the square root of the area≤32 pixels which only
-occupy on average 0.3% of the image area.
+該影像資料集包括35名患者，總共納入 了8792張肺動脈電腦斷層血管攝影(CTPA)影像，大小為512×512像素，其中2304張包含病灶區域，總共有3781個肺栓塞(PE)的感興趣區域（PE-ROIs）。
 
 # Getting started
 Install the required package:
