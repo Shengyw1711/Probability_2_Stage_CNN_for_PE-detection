@@ -11,9 +11,9 @@
 * 候選區域生成網路(RPN)的程式碼
 
 # 訓練資料來源
-1.需要下載[PE影像資料集](https://figshare:com/authors/MojtabaMasoudi/5215238).
+1.需要下載[PE影像資料集](https://figshare:com/authors/MojtabaMasoudi/5215238).  
 2.影像資料集是以dicom檔儲存，需要先將其轉換為jpg格式。  
-3.接著需要使用該數據集提供的Ground Truth標籤對下載下來的資料集建立一個標籤文件來替換[annotations](annotations)目錄中的文件.
+3.接著需要使用該數據集提供的Ground Truth標籤對下載下來的資料集建立一個標籤文件來替換[annotations](annotations)目錄中的文件.  
 
 The dataset includes 35 patients. A total of 8,792 CTPA images with
 the size of 512×512 pixels are included, of which 2,304
