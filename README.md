@@ -1,7 +1,7 @@
 # Probability_2_Stage_CNN_for for Pulmonary Embolism(PE) detection and segmentation
 
-This is an implementation of Probability_2_Stage_CNN
-on Python 3, Keras, and TensorFlow>=1.10, <2.0. The code inherits from [Mask RCNN](https://github.com/matterport/Mask_RCNN). 
+這是一支"基於機率的兩間段卷積神經網路"的程式,
+使用的軟體/套件包括Python 3, Keras和>=1.10或<2.0的TensorFlow.程式的靈感來自於[Mask RCNN](https://github.com/matterport/Mask_RCNN). 
 We mainly modified its RPN part. 
 Our method has a better performance on small object detection. 
 
