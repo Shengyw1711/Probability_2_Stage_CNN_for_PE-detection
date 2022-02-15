@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python sampling/sample.py
 ```
 
-* [pulmonary_embolism.py](pulmonary_embolism.py) is the main file to train and validate Probability_2_Stage_CNN.
+* [pulmonary_embolism.py](pulmonary_embolism.py) 是訓練和驗證整個兩階段卷積神經網路的主要程式碼.
 You can download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases)
 to init the weight of the model.You can also use the [model](model/mask_rcnn_pulmonary.h5) we have pre-train to evaluate Probability_2_Stage_CNN directly.
 
