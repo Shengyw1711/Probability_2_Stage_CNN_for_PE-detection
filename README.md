@@ -30,8 +30,8 @@ python sampling/sample.py
 ```
 
 * [pulmonary_embolism.py](pulmonary_embolism.py) 是訓練和驗證整個兩階段卷積神經網路的主要程式碼.
-You can download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases)
-to init the weight of the model.You can also use the [model](model/mask_rcnn_pulmonary.h5) we have pre-train to evaluate Probability_2_Stage_CNN directly.
+可以從[這個頁面](https://github.com/matterport/Mask_RCNN/releases)
+下載經過預訓練的COCO權重 (mask_rcnn_coco.h5) 來初始化模型的權重.
 
 To train your own model, run:
 ```
