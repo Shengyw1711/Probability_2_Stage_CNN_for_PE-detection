@@ -13,7 +13,7 @@
 # 訓練資料來源
 需要下載[PE影像資料集](https://figshare:com/authors/MojtabaMasoudi/5215238).
 
-The dataset is provided in dicom form, you should change it to jpg form, first. After that,
+影像資料集是以dicom檔儲存，需要先將其轉換為jpg格式。 接著,
 you should generate a label file for the coco dataset using the mask label provided by the dataset, 
 and replace the file in the [annotations](annotations) directory.
 you can also use the label file provided by us. If you use our label files, 
