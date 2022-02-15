@@ -36,7 +36,7 @@ python sampling/sample.py
 ```
 python pulmonary_embolism.py training --dataset="your dataset path" --model="your model weight file.h5"
 ```
-To evaluate the model, run:
+若要測試模型，輸入下列指令執行::
 ```
 python pulmonary_embolism.py inference --dataset="your dataset path" --model="your model weight file.h5"
 ```
