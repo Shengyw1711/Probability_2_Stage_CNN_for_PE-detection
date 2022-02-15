@@ -13,12 +13,8 @@
 # 訓練資料來源
 需要下載[PE影像資料集](https://figshare:com/authors/MojtabaMasoudi/5215238).
 
-影像資料集是以dicom檔儲存，需要先將其轉換為jpg格式。 接著,
-you should generate a label file for the coco dataset using the mask label provided by the dataset, 
-and replace the file in the [annotations](annotations) directory.
-you can also use the label file provided by us. If you use our label files, 
-You need to rename each image in the following format: "%2d%3d.jpg" % (patient_id, slice_index),
-and divide the data set to 3 parts, including: train, test and val, with the image name contained in each label file. 
+影像資料集是以dicom檔儲存，需要先將其轉換為jpg格式。  
+接著需要使用該數據集提供的Ground Truth標籤對下載下來的資料集建立一個標籤文件來替換[annotations](annotations)目錄中的文件.
 
 The dataset includes 35 patients. A total of 8,792 CTPA images with
 the size of 512×512 pixels are included, of which 2,304
