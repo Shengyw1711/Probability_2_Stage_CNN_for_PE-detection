@@ -7,14 +7,11 @@
 
 程式內容包括:
 * 卷積神經網路(CNN)的程式(使用R)
-* the source code of constructing Guassian mixture model(GMM) and the implements of 
-the Expectation-Maximization(EM) algorithm
-* the source code of sample from GMM
-* the source code of the RPN model of Probability_2_Stage_CNN
+* 建立高斯混合模型（GMM,用於生成機率分佈）的程式碼和期望值最大化（EM）演算法的程式碼
+* 候選區域生成網路(RPN)的程式碼
 
-# Data Description
-to reproduce the results of the experiment in our paper, you should download the PE dataset
-from [here](https://figshare:com/authors/MojtabaMasoudi/5215238).
+# 訓練資料來源
+需要下載PE影像資料集 [here](https://figshare:com/authors/MojtabaMasoudi/5215238).
 
 The dataset is provided in dicom form, you should change it to jpg form, first. After that,
 you should generate a label file for the coco dataset using the mask label provided by the dataset, 
